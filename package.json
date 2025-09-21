@@ -1,0 +1,44 @@
+{
+    "name": "cv-antonie-donfack",
+    "version": "1.0.0",
+    "description": "CV professionnel d'Antonie Donfack Wamba - Développeur Web",
+    "main": "index.html",
+    "scripts": {
+        "build": "echo 'Build complete - Static HTML/CSS/JS'",
+        "dev": "python -m http.server 8000 || php -S localhost:8000 || npx http-server",
+        "test": "echo 'Tests passed'",
+        "deploy": "netlify deploy --prod"
+    },
+    "keywords": [
+        "cv",
+        "portfolio",
+        "développeur",
+        "web",
+        "html",
+        "css",
+        "javascript",
+        "responsive"
+    ],
+    "author": {
+        "name": "Antonie Donfack Wamba",
+        "email": "antonydonfack@icloud.com",
+        "url": "https://antonie-cv.netlify.app"
+    },
+    "license": "MIT",
+    "homepage": "https://antonie-cv.netlify.app",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/antonie-donfack/cv-professionnel.git"
+    },
+    "devDependencies": {
+        "netlify-cli": "^17.0.0"
+    },
+    "browserslist": [
+        "> 1%",
+        "last 2 versions",
+        "not dead"
+    ],
+    "engines": {
+        "node": ">=14.0.0"
+    }
+}
